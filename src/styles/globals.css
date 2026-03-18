@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #57B7E9;
+    --secondary: #E8F5FE;
+    --accent-green: #B4E4CE;
+    --accent-pink: #FFD6E8;
+    --background: #F5F7FA;
+    --card-bg: #FFFFFF;
+    --text-primary: #2C3E50;
+    --text-secondary: #5F6C7B;
+    --border-color: #E5E9EF;
+  }
+
+  body {
+    font-family: "Inter", "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    background-color: var(--background);
+    color: var(--text-primary);
+    line-height: 1.6;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
