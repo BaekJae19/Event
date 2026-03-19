@@ -3,6 +3,8 @@ import { MenuCard } from '../components/MenuCard';
 import { NoticeList } from '../components/NoticeList';
 import { CommunityList } from '../components/CommunityList';
 import { DailyKnowledge } from '../components/DailyKnowledge';
+// ADDED: Mattermost Event UI
+import { MattermostEventList } from '../components/MattermostEventList';
 
 export default function Dashboard() {
   return (
@@ -23,6 +25,11 @@ export default function Dashboard() {
         
         {/* Community List */}
         <CommunityList />
+      </div>
+
+      {/* ADDED: Mattermost Event UI */}
+      <div className="mb-8">
+        <MattermostEventList />
       </div>
 
       {/* Bottom Section - Daily Knowledge */}
